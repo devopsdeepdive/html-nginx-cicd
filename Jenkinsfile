@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/devopsdeepdive/html-nginx-demo.git'
+                url: 'https://github.com/devopsdeepdive/html-nginx-cicd.git'
             }
         }
 
